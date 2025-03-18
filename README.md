@@ -208,7 +208,7 @@ Le projet est disponible sur [GitHub](https://github.com/Armotik/projet_prog_fon
 
 ---
 
-- Programmatique Fonctionnelle - Projet
+- Programmation Fonctionnelle - Projet
 - Anthony MUDET
 - Licence 3 Informatique - La Rochelle Université
 - 2025
