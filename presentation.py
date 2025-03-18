@@ -5,7 +5,7 @@ import inspect
 import re
 
 
-def _get_display_names(cls):
+def _get_display_names(cls) -> dict:
     """
     Retourne un dictionnaire des noms d'affichage des méthodes d'une classe
     :param cls: Classe à inspecter
@@ -29,7 +29,7 @@ def _get_description(func):
     return inspect.getdoc(func)
 
 
-def _get_graph_state(func):
+def _get_graph_state(func) -> [bool, str, str, str] :
     """
     Retourne si une fonction affiche un graphique et les paramètres de ce graphique
     :param func: Fonction à inspecter
